@@ -136,11 +136,17 @@ body {
 .heading-secondary,
 .heading-tertiary {
   font-weight: 700;
-  color: #b2b2b2;
+  color: #43280C; /* You can uncomment and choose your preferred color */
   /* color: #45260a; */
   /* color: #343a40; */
   letter-spacing: -0.5px;
+  text-shadow: 
+    1px 1px 0 #ffffff,
+    -1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px -1px 0 #ffffff;
 }
+
 
 .heading-primary {
   font-size: 5.2rem;

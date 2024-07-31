@@ -207,6 +207,7 @@ body {
   font-size: 2rem;
   font-weight: 600;
   padding: 1.6rem 3.2rem;
+  margin: 10px 0;
   border-radius: 9px;
 
   /* Only necessary for .btn */
@@ -222,7 +223,7 @@ body {
 .btn--full:link,
 .btn--full:visited {
   background-color: #e67e22;
-  color: #e5e5e5;
+  color: #FFF;
 }
 
 .btn--full:hover,
@@ -233,7 +234,7 @@ body {
 .btn--outline:link,
 .btn--outline:visited {
   background-color: #fff;
-  color: #555;
+  color: #000;
 }
 
 .btn--outline:hover,

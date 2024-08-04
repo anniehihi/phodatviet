@@ -422,24 +422,11 @@
 .pricing-plan--complete {
   background-color: #fdf2e9;
   padding: 4.8rem;
-  position: relative;
+  position: center;
+  text-align: center;
   overflow: hidden;
 }
 
-.pricing-plan--complete::after {
-  content: "Best value";
-  position: absolute;
-  top: 6%;
-  right: -18%;
-
-  text-transform: uppercase;
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: #333;
-  background-color: #ffd43b;
-  padding: 0.8rem 8rem;
-  transform: rotate(45deg);
-}
 
 .plan-header {
   text-align: center;
@@ -474,10 +461,7 @@
   color: #6f6f6f;
 }
 
-.plan-sing-up {
-  text-align: center;
-  margin-top: 4.8rem;
-}
+
 
 .plan-details {
   font-size: 1.6rem;
@@ -516,7 +500,7 @@
   /* padding: 9.6rem 0 12.8rem 0; */
 
   /* top / horizontal / left */
-  padding: 4.8rem 0 12.8rem;
+  padding: 0rem 0 12.8rem;
 }
 
 .cta {
